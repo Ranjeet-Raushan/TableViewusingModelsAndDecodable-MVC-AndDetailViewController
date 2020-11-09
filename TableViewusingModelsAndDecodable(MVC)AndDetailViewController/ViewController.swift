@@ -25,7 +25,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     override func viewWillAppear(_ animated: Bool) {
-       // navigationController?.navigationItem.title = "ListUsingModels&Codable"
         navigationItem.title = "ListUsingModels&Codable"
     }
     func getdata(){
